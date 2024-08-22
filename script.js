@@ -33,8 +33,8 @@ let horasTraba = prompt('quantas horas você trabalha no mês?')
 let ganhoMensal = ganhoPHora * horasTraba
 alert(`seu ganho mensal é ${ganhoMensal}`)
 //9.Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. C = 5 * ((F-32) / 9).
-let Fahrenheit = prompt('qual a temperatura que você quer converter de fahrenheit pra graus celsius?')
-let cel = 5 * ((Fahrenheit - 32) / 9)
+let fahrenheit = prompt('qual a temperatura que você quer converter de fahrenheit pra graus celsius?')
+let cel = 5 * ((fahrenheit - 32 )/ 9)
 alert(`sua temperatura em graus celsius é ${cel}`)
 //10.Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit
 let celsius = prompt('qual a temnperatura que você quer converter de celsius pra fahrenheit?')
